@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>[Sanda Bourbonnaise]</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAx8fHAPv7+wA9PT0Aenp6ANnZ2QAbGxsA4uLiAIyMjABhYWEACwsLACYmJgAvLy8Ay8vLAP///wB1dXUAqampAEpKSgAfHx8AMTExAA8PDwDW1tYATExMACoqKgCSkpIAZ2dnADw8PADz8/MA0dHRABMTEwCmpqYAR0dHAK+vrwADAwMAwcHBAJaWlgA3NzcAa2trALGxsQBSUlIAj4+PAPf39wA5OTkAFxcXAFRUVACRkZEABwcHAJqamgA7OzsAzs7OAODg4AAiIiIAtbW1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4ODgAAKxYnKQ4ODg4ODg4ODgAXHS4uChQCDg4ODg4ODg4ALgAAAAAdFBwODg4ODg4HIS4ADg4ODgoLDg4ODg4OHS4oAA4ODg4GMxkQDg4ODhIuJQAODgAABjMOMRMaDg4jChQrDg4AFxIBAg4OEyAODhQOBSILMxcMAgQvDg4ODg4JDg4OFzMONA4OMy0ODg4SMw4ODgIYAikwGw4LAw4OBg8ODg4OCDMOJh8OMjMODiQVDg4ODg4TDg4nDA4ODg4ODg4ODg4ODTMODgssDg4ODg4ODg4ODg4zAA4aKg4ODg4ODg4ODg4OHhEODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+          rel="icon" type="image/x-icon"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+        @import url(https://weloveiconfonts.com/api/?family=entypo);
+
+        [class*="entypo-"]:before {
+            font-family: 'entypo', sans-serif;
+        }
+
+        * {
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1em;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 300;
+            font-size: 2em;
+            border-bottom: 2px solid #cb1d1d;
+            margin-bottom: 1em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #cb1d1d;
+            border-bottom: 1px solid #333333;
+            transition: all .4s ease;
+        }
+
+        a:hover {
+            color: #be6f6f;
+            border-bottom: 1px solid #cb1d1d;
+        }
+
+        .wrapper {
+            position: relative;
+            box-shadow: 0 0 1em #333333;
+        }
+
+        .wrapper section {
+            position: relative;
+            /*background: #eeeeee;*/
+        }
+
+        .wrapper section article {
+            width: 50%;
+            margin: 0 auto;
+            padding: 2em 0;
+            padding-top: 70px;
+        }
+
+        .wrapper section article p {
+            margin-bottom: 1em;
+        }
+
+        .wrapper section article p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .wrapper section:after {
+            content: "";
+            display: block;
+            position: relative;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 30em;
+            width: 100%;
+        }
+
+        .wrapper section:nth-child(1):after {
+            background-image: url("https://www.barbariansfightwear.com/img/cms/sanda.png");
+        }
+
+        .wrapper section:nth-child(2):after {
+            background-image: url("https://www.barbariansfightwear.com/img/cms/sanda.png");
+        }
+
+        .wrapper section:nth-child(3):after {
+            background-image: url("https://www.barbariansfightwear.com/img/cms/sanda.png");
+        }
+
+        .wrapper section:nth-child(4):after {
+            background-image: url("https://www.barbariansfightwear.com/img/cms/sanda.png");
+        }
+
+        /*
+        https://farm4.static.flickr.com/3150/2391651759_127116344f_b.jpg
+                .wrapper section:nth-child(5):after {
+                    background-image: url("https://drive.google.com/uc?id=0B4n1QzrlB220SGxvRzdVcXZHZzQ");
+                }
+
+                .wrapper section:nth-child(6):after {
+                    background-image: url("https://drive.google.com/uc?id=0B4n1QzrlB220algzZ0hodlFPMDQ");
+                }*/
+
+        @media only screen and (max-width: 800px) {
+            .wrapper section article {
+                width: 80%;
+            }
+
+            .wrapper section:after {
+                height: 15em;
+            }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav>li>a').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-brand">
+        <img src="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAx8fHAPv7+wA9PT0Aenp6ANnZ2QAbGxsA4uLiAIyMjABhYWEACwsLACYmJgAvLy8Ay8vLAP///wB1dXUAqampAEpKSgAfHx8AMTExAA8PDwDW1tYATExMACoqKgCSkpIAZ2dnADw8PADz8/MA0dHRABMTEwCmpqYAR0dHAK+vrwADAwMAwcHBAJaWlgA3NzcAa2trALGxsQBSUlIAj4+PAPf39wA5OTkAFxcXAFRUVACRkZEABwcHAJqamgA7OzsAzs7OAODg4AAiIiIAtbW1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4ODgAAKxYnKQ4ODg4ODg4ODgAXHS4uChQCDg4ODg4ODg4ALgAAAAAdFBwODg4ODg4HIS4ADg4ODgoLDg4ODg4OHS4oAA4ODg4GMxkQDg4ODhIuJQAODgAABjMOMRMaDg4jChQrDg4AFxIBAg4OEyAODhQOBSILMxcMAgQvDg4ODg4JDg4OFzMONA4OMy0ODg4SMw4ODgIYAikwGw4LAw4OBg8ODg4OCDMOJh8OMjMODiQVDg4ODg4TDg4nDA4ODg4ODg4ODg4ODTMODgssDg4ODg4ODg4ODg4zAA4aKg4ODg4ODg4ODg4OHhEODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+             height="30" alt="sanda b.">
+        <!--
+        https://maxcdn.icons8.com/Share/icon/Food//pie1600.png
+        https://icon-icons.com/icons2/281/PNG/256/Pie-icon_30283.png
+        https://drive.google.com/uc?id=0B4n1QzrlB220QjZjcnVIN1paXzQ
+           <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAx8fHAPv7+wA9PT0Aenp6ANnZ2QAbGxsA4uLiAIyMjABhYWEACwsLACYmJgAvLy8Ay8vLAP///wB1dXUAqampAEpKSgAfHx8AMTExAA8PDwDW1tYATExMACoqKgCSkpIAZ2dnADw8PADz8/MA0dHRABMTEwCmpqYAR0dHAK+vrwADAwMAwcHBAJaWlgA3NzcAa2trALGxsQBSUlIAj4+PAPf39wA5OTkAFxcXAFRUVACRkZEABwcHAJqamgA7OzsAzs7OAODg4AAiIiIAtbW1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4ODg4ODg4ODg4ODg4ODgAAKxYnKQ4ODg4ODg4ODgAXHS4uChQCDg4ODg4ODg4ALgAAAAAdFBwODg4ODg4HIS4ADg4ODgoLDg4ODg4OHS4oAA4ODg4GMxkQDg4ODhIuJQAODgAABjMOMRMaDg4jChQrDg4AFxIBAg4OEyAODhQOBSILMxcMAgQvDg4ODg4JDg4OFzMONA4OMy0ODg4SMw4ODgIYAikwGw4LAw4OBg8ODg4OCDMOJh8OMjMODiQVDg4ODg4TDg4nDA4ODg4ODg4ODg4ODTMODgssDg4ODg4ODg4ODg4zAA4aKg4ODg4ODg4ODg4OHhEODg4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+        -->
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#sandab">L'asso</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sessions">Les sessions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pratiques">Les pratiques</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#inscription">Inscription</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#infos">Infos et contacts</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="wrapper">
+
+    <section id="sandab" class="">
+        <article>
+            <h1>L'association Sanda Bourbonnaise</h1>
+            <p>Association 1901 de bénévoles a pour objectif de promouvoir la discipline sportive et la bonne santé
+                grâce aux arts martiaux</p>
+            <p>Si vous êtes intéressé par <a href="#pratiques">la pratique</a> et disponible pour une/les <a
+                    href="#sessions">sessions</a><br>
+                => <a href="#inscription">inscrivez-vous ici</a></p>
+        </article>
+    </section>
+
+    <section id="sessions" class="">
+        <article>
+            <h1>Les sessions et les lieux</h1>
+
+            <p>
+            <ul>
+                <li>
+                    Le mardi de 17h à 19h30 à la ferme de la Mhotte (quand le temps le permet) - extérieur<br>
+                    <a href="https://www.qwant.com/maps/place/latlon:46.57471:3.11098#map=17.21/46.5740472/3.1106946">ferme
+                        de la Mhotte</a>
+                </li>
+                <li>Le jeudi de 19h à 20h30 au gymnase du collège de Bourbon l'Archambault - intérieur avec tapis de sol<br>
+
+                    <a href="https://www.qwant.com/maps/place/osm:way:612008759#map=17.40/46.5808575/3.0606787">1 Rue
+                        Jean Macé, 03160 Bourbon-l'Archambault</a>
+                </li>
+            </ul>
+            </p>
+
+            <h3>Attention</h3>
+            <p>Merci de vérifier s'il n'y a pas de contre-ordre dans le flux :<br>
+                <a class="twitter-timeline" data-dnt="true" data-theme="light"
+                   href="https://twitter.com/sandab_org?ref_src=twsrc%5Etfw">tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </p>
+
+        </article>
+    </section>
+    <section id="pratiques" class="">
+        <article>
+            <h1>Les pratiques</h1>
+            <p>Etant un groupe de pratiquant d'horizons différents, aucune lignée n'est "officielle". Sont pratiqué de
+                manière ouverte et non exlusive avec des niveaux variables :
+            <ul>
+                <li>La Sanda : boxe pied poing</li>
+                <li>La Boxe Anglaise</li>
+                <li>Le MMA : mixte martial art</li>
+                <li>...</li>
+            </ul>
+            </p>
+        </article>
+    </section>
+    <section id="inscription" class="">
+        <article>
+            <h1>Inscription</h1>
+            <p>Sur Hello Asso <a
+                    href="https://www.helloasso.com/associations/sanda-boubonnaise/adhesions/adhesion">ici</a></p>
+        </article>
+    </section>
+    <section id="infos" class="">
+        <article>
+            <h1>Informations et contacts</h1>
+            <p>Mail : <a href="mailto:contact@sandab.org">contact@sandab.org</a></p>
+            <p>Réglement intérieur:
+                <a href="https://mypads2.framapad.org/mypads/?/mypads/group/sandab-public-2q1e8295f/pad/view/reglement-interieur-v01ed294g">ici</a>
+            </p>
+        </article>
+    </section>
+</div>
+
+</body>
+</html>
